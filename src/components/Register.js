@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 import { Form, Input, Button } from 'antd';
 
@@ -107,7 +108,9 @@ class RegistrationForm extends React.Component {
                     <Button type="primary" htmlType="submit">
                         Register
                     </Button>
+                    <p>I already have an account, go back to <Link to="/login">Login</Link></p>
                 </Form.Item>
+
 
             </Form>
         );

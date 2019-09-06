@@ -1,6 +1,6 @@
 import React from 'react';
 import { TopBar } from "./TopBar";
-import { Main } from "./Main"
+import { Main } from "./Main";
 
 import '../styles/App.css';
 

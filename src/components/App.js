@@ -2,7 +2,7 @@ import React from 'react';
 import { TopBar } from "./TopBar";
 import { Main } from "./Main"
 
-import './App.css';
+import '../styles/App.css';
 
 
 function App() {

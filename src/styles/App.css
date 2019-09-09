@@ -2,6 +2,7 @@
 @import 'Register.css';
 @import 'Main.css';
 @import 'Login.css';
+@import 'TopBar.css';
 
 .App {
   text-align: center;
@@ -9,23 +10,23 @@
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
-  height: 50px;
   pointer-events: none;
+  height: 50px;
   float: left;
 }
 
 .App-header {
   background-color: #282c34;
-  height: 50px;
   color: white;
+  height: 50px;
 }
 
 .App-title {
-  padding-top: 15px;
   float: left;
+  padding-top: 15px;
   font-weight: bold;
   font-size: 17px;
-  color:#61dafb;
+  color: #61dafb;
 }
 
 .App-link {

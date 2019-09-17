@@ -22,6 +22,7 @@ export class Main extends React.Component {
                     <Route path="/home" render={this.getHome}/>
                     <Route render={this.getLogin}/>
                 </Switch>
+
             </div>
 
         );

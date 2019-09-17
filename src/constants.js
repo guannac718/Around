@@ -7,3 +7,6 @@ export const GEO_OPTIONS = {
 }
 export const POS_KEY = 'POS_KEY';
 export const AUTH_HEADER = 'Bearer';
+export const POST_TYPE_IMAGE = 'image';
+export const POST_TYPE_VIDEO = 'video';
+export const POST_TYPE_UNKNOWN = 'unknown';
